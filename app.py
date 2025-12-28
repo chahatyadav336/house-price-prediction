@@ -1,6 +1,7 @@
 import streamlit as st
 import pickle
-from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing
+import StandardScaler
 import pandas as pd
 import time
 from sklearn.datasets import fetch_california_housing
@@ -19,4 +20,5 @@ scaler = StandardScaler()
 scaled_X = scaler.fit_transform(final_X)
 
 st.sidebar.title('Select House features:')
+
 
